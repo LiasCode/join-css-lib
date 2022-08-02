@@ -8,7 +8,7 @@
     "dev": "nodemon --watch ./src",
     "test" : "node ./src/index.js --entry ./test/index.html"
   },
-  "keywords": [],
+  "keywords": ["join css", "css" , "bundle css", "css in html"],
   "author": "liasCode",
   "license": "ISC",
   "dependencies": {},
