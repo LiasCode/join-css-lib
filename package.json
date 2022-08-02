@@ -1,0 +1,25 @@
+{
+  "name": "joincss",
+  "version": "1.0.0",
+  "description": "Empaquetar archivos css a partir de un archivo html",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "nodemon --watch ./src",
+    "test" : "node ./src/index.js --entry ./test/index.html"
+  },
+  "keywords": [],
+  "author": "liasCode",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "browser": {
+    "fs": true,
+    "path": true,
+    "os": false
+  }
+}
