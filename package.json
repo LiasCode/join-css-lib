@@ -1,6 +1,6 @@
 {
   "name": "joincss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Empaquetar archivos css a partir de un archivo html",
   "main": "./src/index.js",
   "scripts": {
