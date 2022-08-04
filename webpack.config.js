@@ -1,5 +1,6 @@
 const path = require("path");
 
+
 module.exports = {
   mode: "production", // "production" | "development" | "none"
  
@@ -9,4 +10,5 @@ module.exports = {
     path: path.resolve(__dirname, "dist"), 
     filename: "[name].js", 
   },
+
 };

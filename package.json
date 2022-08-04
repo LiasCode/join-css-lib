@@ -1,12 +1,12 @@
 {
   "name": "joincss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Empaquetar archivos css a partir de un archivo html",
   "main": "./src/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "dev": "nodemon --watch ./src",
-    "test" : "node ./src/index.js --entry ./test/index.html"
+    "test" : "node ./bin/joincss.js --entry ./test/index.html"
   },
   "keywords": ["join css", "css" , "bundle css", "css in html"],
   "author": "liasCode",
